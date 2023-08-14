@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Track</title>
+    <link rel="stylesheet" href="../Admin-Style/teacherTrack.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <a href="../Admin-Page/homeA.html" id="trackeasy" style="color: black;"><span id="text1">TrackEasy</span></a>
+        <a href="../Admin-Page/teacherTrack.html" id="teacher">Teacher Tracking</a>
+        <a href="../Admin-Page/studentTrack.html" id="student">Student Tracking</a>
+        <a href="../Admin-Page/teacherPos.html" id="teachers">Teacher's Poster</a>
+    </div>
+    <div id="heading1"><a href="#" onclick="setupCam()" style="text-decoration: none;color: white; text-align: center;">Submit Attendance</a></div>
+    <div id="mainbody">
+        <div id="leftbody">
+            <div id="pos1">
+                <br>
+                <span>Latitude : <span id="ab1">
+                </span></span><div id="lati"></div>
+                <span>Longitude : <span id="ab2"></span></span><div id="longi"></div>
+                <button onclick="location1()" style="margin-top: 2%;padding: 6px; border-radius: 10px;">Track Location</button><br><br>
+            </div>
+            <div id="camstyle">
+                <div id="camera"></div>
+                <button onclick="take_snapshot()" style="margin-top: 2%; padding: 6px; border-radius: 10px;">Take Snapshot</button>
+            </div>
+        </div>
+        <div id="rightbody">
+            <div id="tracked-loc">
+                <p>Current Location with Attendance</p><br>
+                <span>Latitude : <span id="lat1"></span>
+                </span><br>
+                <span>Longitude : <span id="logi2"></span>
+                </span><br>
+            </div>
+            <div id="respic">
+                <br><div id="results"></div>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>    
+<script src="../Admin-js/teacherTrack.js"></script>
+</html>

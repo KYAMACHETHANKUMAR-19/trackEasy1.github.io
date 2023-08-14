@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Edu+SA+Beginner:wght@700&display=swap');
+body{
+    margin : 0;
+
+}
+#topnav{
+    background-color: skyblue;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    text-align: center;
+    box-shadow:0 10px 10px #584b4b;
+}
+.nav{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    font-family: 'Borel', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    
+}
+.nav:hover{
+    color: black;
+}
+.nav:active{
+    color: black;
+}
+#nav1{
+    color: black;
+    font-family: 'Borel', cursive;
+    font-size: 35px;
+    padding-right: 30px;
+}
+#nav1:hover{
+    color: white;
+}
+#nav1:active{
+    color: black;
+}
+.mainpagebody{
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+}
+p{
+    text-align: justify;
+}
+.leftbody{
+    float:left;
+    width: 15%;
+    margin-right: 10px;
+    height: 100%;
+}
+.rightbody{
+    float:left;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 100%;
+}
+

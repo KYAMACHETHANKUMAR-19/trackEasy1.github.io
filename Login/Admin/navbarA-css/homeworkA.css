@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Tektur:wght@400;700&display=swap');
+#mainbody{
+    margin: 4%; 
+    margin-left: 2%; 
+    margin-right: 0%;
+}
+#homeworkForm{
+    background-color: aliceblue;
+    float: left;
+    border: 1px solid black;
+    display: block;
+    width: 30%;
+    text-align: right;
+    padding: 10px;
+    margin-right: 1%;
+    border-left: 16px groove rgb(87, 154, 213);
+    box-shadow: 0 4px 4px black;
+}
+#showcase{
+    margin-right: 0%;
+    background-color: aliceblue;
+    display: block;
+    float: left;
+    border: 1px solid black;
+    width: 60%;
+    padding: 10px;
+    border-right: 16px groove rgb(87, 154, 213);
+    box-shadow: 0 4px 4px black;
+}
+label{
+    float: left;
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Tektur', cursive;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* button  */
+#subbtn{
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
+    background-color: #ccc;
+    box-shadow: 0 4px 4px black;
+    font-family: monospace;
+}
+#subbtn:hover{
+    background-color: black;
+}
+/* del btn 
+<button class="delbtn" onclick="deleteText()"></button>
+*/
+.sendbtn1{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
+    background-color: #ccc;
+    box-shadow: 0 4px 4px black;
+    font-family: monospace;
+}
+.sendbtn1:hover{
+    background-color: black;
+}
+#mainheading{
+    /* border:1px solid black; */
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 55px;
+    font-family: 'Cherry Bomb One', cursive;
+}
+td{
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Tektur', cursive;
+}
+
+

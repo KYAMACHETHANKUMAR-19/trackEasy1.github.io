@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cherry+Bomb+One&family=Kaushan+Script&family=Shadows+Into+Light&family=Tektur:wght@400;700&family=Tilt+Prism&display=swap');
+body{
+    margin: 0;
+}
+#nav-bar{
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px;
+    background-color: #7e8e9e;
+    font-family: 'Tektur', cursive;
+    margin-bottom: 2%;
+
+}
+#mainbody{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#leftbody{
+    padding-top: 30px;
+    border: 1px solid black;
+    float: left;
+    width: 15%;
+    height: 570px;
+    text-align: center;
+}
+#rightbody{
+    padding-top: 30px;
+    border: 1px solid black;
+    float:left;
+    width: 80%;
+    height: 570px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#id1{
+    padding-top: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+#id2{
+    padding-top: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+a{
+    text-decoration: none;
+}
+#nav-bar a{
+    padding-left: 20px;
+    padding-left: 40px;
+    color: white;
+    font-size: 20px;
+    
+}
+#nav-bar a:hover{
+    color: black;
+}
+#text1{
+    padding-right: 100px;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 0px;
+}
+#text1:hover{
+    color: white;
+    /* font-family: 'Cherry Bomb One', cursive; */
+    /* font-family: 'Kaushan Script', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    /* font-family: 'Tektur', cursive; */
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 100;
+}
+#leftbody a{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    box-shadow: 0 4px 4px #ccc;
+}
+#leftbody a:hover{
+    background-color: #ccc;
+    box-shadow: 0 4px 4px black;
+}
+p{
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 20px;
+}

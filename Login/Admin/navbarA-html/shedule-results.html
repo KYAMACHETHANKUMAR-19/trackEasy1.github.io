@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shedule and Results</title>
+    <link rel="stylesheet" href="../navbarA-css/shedule-results.css">
+</head>
+<body>
+    <div id="mainheading">Shedule & Results</div>
+    <div id="mainbody">
+        <!-- leftbody -->
+        <div id="homeworkForm">
+            <form action="">
+                <label for="Date">Enter Date</label>
+                <input type="date"  id="date" style="padding: 6px;font-family: monospace; border-radius: 6px;"><br><br>
+
+                <label for="selection">Shedule/Result</label>
+                <select name="" id="select1" style="padding: 6px; padding-left: 30px;padding-right: 30px; text-align: center; border-radius: 6px; font-family: monospace;">
+                    <option value="result">Result</option>
+                    <option value="shedule">Shedule</option>
+                </select><br><br>
+                
+
+                <label for="details" style="padding-bottom: 12px;">Enter Shedule/Result details:  </label><br>
+                <textarea name="homework" id="homework1" cols="42" rows="10" style="border-radius: 6px; padding: 4px; font-family: monospace ; box-shadow: 0 3px 5px black;"></textarea><br><br>
+                <div id="subbtn"><a href="#" onclick="submit()" style="color: white; outline: none;">Submit</a></div><br><br>
+            </form>
+            <div class="sendbtn1"><a href="#" onclick="sendHomework()">Send Results/Shedule</a></div>
+        </div>
+        <!-- rightbody -->
+        <div id="showcase">
+            <table id="firstTable">
+                <thead>
+                    <tr>
+                        <td>&emsp;&emsp;Date&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                        <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Data&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                        <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</body>
+<script src="../navbarA-js/shedule-results.js"></script>
+</html>

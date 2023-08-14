@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Easy</title>
+    <link rel="stylesheet" href="../navbar-css/Attendance.css">
+    <link rel="stylesheet" href="../navbar-css/Attendance.css">
+</head>
+<body>
+    
+    <div id="topnav">
+        <a href="../Home.html" class="nav" id="nav1">TrackEasy</a>
+        <a href="Attendance.html" class="nav">ATTENDANCE</a>
+        <a href="Timetable.html" class="nav">TIME TABLE</a>
+        <a href="Parentsdetail.html" class="nav">PARENT'S DETAILS</a>
+        <a href="homework.html" class="nav">TODAY'S HOMEWORK</a>
+        <a href="exam-results.html" class="nav">EXAM SCHEDULE / RESULTS</a>
+    </div>
+    <div id="heading1"><a href="#" onclick="setupCam()" style="text-decoration: none;color: white; text-align: center;">Submit Attendance</a></div>
+    <div id="mainbody">
+        <div id="leftbody">
+            <div id="pos1">
+                <br>
+                <span>Latitude : <span id="ab1">
+                </span></span><div id="lati"></div>
+                <span>Longitude : <span id="ab2"></span></span><div id="longi"></div>
+                <button onclick="location1()" style="margin-top: 2%;padding: 6px; border-radius: 10px;">Track Location</button><br><br>
+            </div>
+            <div id="camstyle">
+                <div id="camera"></div>
+                <button onclick="take_snapshot()" style="margin-top: 2%; padding: 6px; border-radius: 10px;">Take Snapshot</button>
+            </div>
+        </div>
+        <div id="rightbody">
+            <div id="tracked-loc">
+                <p>Current Location with Attendance</p><br>
+                <span>Latitude : <span id="lat1"></span>
+                </span><br>
+                <span>Longitude : <span id="logi2"></span>
+                </span><br>
+            </div>
+            <div id="respic">
+                <br><div id="results"></div>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+<script src="../navbar-js/Attendance.js"></script>
+</html>

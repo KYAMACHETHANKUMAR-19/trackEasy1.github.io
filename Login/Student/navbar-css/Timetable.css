@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Edu+SA+Beginner:wght@700&display=swap');
+body{
+    margin : 0;
+
+}
+#topnav{
+    background-color: skyblue;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    text-align: center;
+    box-shadow:0 10px 10px #584b4b;
+}
+.nav{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    font-family: 'Borel', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    
+}
+.nav:hover{
+    color: black;
+}
+.nav:active{
+    color: black;
+}
+#nav1{
+    color: black;
+    font-family: 'Borel', cursive;
+    font-size: 35px;
+    padding-right: 30px;
+}
+#nav1:hover{
+    color: white;
+}
+#nav1:active{
+    color: black;
+}
+.delbtn{
+    display: none;
+}
+
+/* table style */
+.timeTable{
+    margin: 10%;
+    margin-top: 2%;
+     
+}
+table{
+    border-left: 12px groove #0eac94;
+    padding: 20px;
+    background-color: aliceblue;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 10px 10px black;
+    
+}
+thead{
+    border: 10px solid black;
+    border-radius: 16px;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 22px;
+}
+td{
+    
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 16px;
+    
+}
+/* button style */
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    
+    outline: none;
+}
+#todayTimetable{
+    /* border-top: 1px solid  black; */
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 10%;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: 'Borel', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    background-color: rgb(144, 144, 102);
+    border-right: 12px groove;
+    box-shadow: 0 5px 5px black;
+}
+#todayTimetable:hover{
+    
+    background-color: black;
+}

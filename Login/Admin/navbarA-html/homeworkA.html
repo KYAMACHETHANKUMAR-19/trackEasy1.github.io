@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="../navbarA-css/homeworkA.css">
+</head>
+<body>
+    <div id="mainheading">Homework Details</div>
+    <div id="mainbody">
+        <!-- leftbody -->
+        <div id="homeworkForm">
+            <form action="">
+                <label for="Date">Enter Date</label>
+                <input type="date"  id="date" style="padding: 6px;font-family: monospace; border-radius: 6px;"><br><br>
+                <label for="details" style="padding-bottom: 12px;">Enter home work details:  </label><br>
+                <textarea name="homework" id="homework1" cols="42" rows="10" style="border-radius: 6px; padding: 4px; font-family: monospace ; box-shadow: 0 3px 5px black;"></textarea><br><br>
+                <div id="subbtn"><a href="#" onclick="submit()" style="color: white; outline: none;">Submit</a></div><br><br>
+            </form>
+            <div class="sendbtn1"><a href="#" onclick="sendHomework()">Send Homework</a></div>
+        </div>
+        <!-- rightbody -->
+        <div id="showcase">
+            <table id="firstTable">
+                <thead>
+                    <tr>
+                        <td>&emsp;&emsp;Date&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                        <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Homework&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                        <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="../navbarA-js/homeworkA.js"></script>
+</html>

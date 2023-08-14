@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Edu+SA+Beginner:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Kaushan+Script&family=Tektur:wght@400;700&display=swap');
+body{
+    margin : 0;
+
+}
+#topnav{
+    background-color: skyblue;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    text-align: center;
+    box-shadow:0 10px 10px #584b4b;
+}
+.nav{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    font-family: 'Borel', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    
+}
+.nav:hover{
+    color: black;
+}
+.nav:active{
+    color: black;
+}
+#nav1{
+    color: black;
+    font-family: 'Borel', cursive;
+    font-size: 35px;
+    padding-right: 30px;
+}
+#nav1:hover{
+    color: white;
+}
+#nav1:active{
+    color: black;
+}
+
+/* table style  */
+#showcase{
+    margin-right: 0%;
+    background-color: aliceblue;
+    display: block;
+    /* float: left; */
+    border: 1px solid black;
+    width: 60%;
+    padding: 10px;
+    border-right: 16px groove rgb(87, 154, 213);
+    border-left: 16px groove rgb(87, 154, 213);
+    box-shadow: 0 4px 4px black;
+}
+button{
+    visibility: hidden;
+}
+#HWheading{
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 20%;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Borel', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    background-color: rgb(144, 144, 102);
+    border-right: 12px groove;
+    box-shadow: 0 5px 5px black;
+}
+
+#showcase{
+    margin-top: 1.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+thead{
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+}
+tbody{
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Tektur', cursive;
+}

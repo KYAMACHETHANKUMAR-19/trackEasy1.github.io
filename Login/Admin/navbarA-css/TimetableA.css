@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@700&family=Edu+SA+Beginner:wght@700&display=swap');
+body{
+    justify-content: center;
+    
+}
+#heading{
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 0%;
+    padding: 20px;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    text-shadow: 10px 4px #ccc;
+}
+.tbody{
+    margin: 10%;
+    margin-top: 10%;
+     
+}
+table{
+    border-left: 12px groove #0eac94;
+    padding: 20px;
+    background-color: aliceblue;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 10px 10px black;
+    
+}
+thead{
+    border: 10px solid black;
+    border-radius: 16px;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 22px;
+}
+td{
+    
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 16px;
+    
+}
+#formdiv{
+    align-items: center;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: right;
+    margin-left: 33%;
+    margin-right:33% ;
+    margin-top: 0%;
+    background-color: aliceblue;
+    box-shadow: 0 10px 10px black;
+}
+label{
+    float: left;
+    padding: 16px;
+}
+input{
+    border-radius: 14px;
+    padding: 16px;
+    margin-left: 20px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    color:black;
+    
+
+}
+input:hover{ 
+    background-color: #ccc;
+}
+input::placeholder{
+    color:white;
+}
+#sub-btn{
+    text-align: center;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    display: block;
+    padding: 5px;
+    margin-left:35%;
+    margin-right: 35%;
+    border-radius: 12px;
+    outline: none;
+    background-color: #ccc;
+    box-shadow: 0 5px 5px black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+#sub-btn:hover{
+    background-color: black;
+    
+}
+.subButton{
+    background-color: black;
+    border: 3px solid black;
+    display: inline-block;
+    font-size: 25px;
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 14px;
+}

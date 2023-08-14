@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Easy</title>
+    <link rel="stylesheet" href="../navbar-css/Parentsdetail.css">
+    
+</head>
+<body>
+    
+    <div id="topnav">
+        <a href="../Home.html" class="nav" id="nav1">TrackEasy</a>
+        <a href="Attendance.html" class="nav">ATTENDANCE</a>
+        <a href="Timetable.html" class="nav">TIME TABLE</a>
+        <a href="Parentsdetail.html" class="nav" onclick="parents()">PARENT'S DETAILS</a>
+        <a href="homework.html" class="nav">TODAY'S HOMEWORK</a>
+        <a href="exam-results.html" class="nav">EXAM SCHEDULE / RESULTS</a>
+    </div>
+    <div id="heading1"> 
+        <h1>Parent's Details</h1>
+    </div>
+    <div id="division">
+        <div class="parentDetails">
+            <form action="">
+                <label for="fatherName">Father's Name</label>
+                <input type="text" name="fname" id="fname"  placeholder="Enter Father Name"><br><br>
+                <label for="fphone">Fathers Phone No.</label>
+                <input type="number" placeholder="99999xxxxx"  id="fphone"><br><br>
+                <label for="motherName">Mother's Name</label>
+                <input type="text" id="mname" placeholder="Enter Mother Name" ><br><br>
+                <label for="mphone">Mothers Phone No.</label>
+                <input type="number" placeholder="99999xxxxx" id="mphone"><br><br>
+                <label for="address">Address</label>
+                <input type="text" placeholder="Enter Address"  id="address"><br><br>
+                <button onclick="dataChangea()">Save and Update</button>
+                
+            </form>
+        </div>
+        <div class="parentDetail">
+            <form action="">
+                <label for="fatherName">Father's Email</label>
+                <input type="email" name="fname" id="fmail" placeholder="---@gmail.com" ><br><br>
+                <label for="fphone">Fathers Office No.</label>
+                <input type="number" placeholder="99999xxxxx"  id="fophone"><br><br>
+                <label for="motherName">Mother's Email</label>
+                <input type="email" id="mmail" placeholder="---@gmail.com"><br><br>
+                <label for="mphone">Mothers Office No.</label>
+                <input type="number" placeholder="99999xxxxx"  id="mophone"><br><br>
+                <label for="address">Permanent Address</label>
+                <input type="text" placeholder="Permanent Address"  id="paddress"><br><br>
+                <button onclick="dataChangeb()">Save and Update</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="../navbar-js/Parentsdetail.js"></script>
+</html>

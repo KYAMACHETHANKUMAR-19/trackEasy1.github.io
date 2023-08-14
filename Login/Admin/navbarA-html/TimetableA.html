@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="../navbarA-css/TimetableA.css">
+</head>
+<body>
+    <div id="heading"><h2>Timetable Updation</h2></div>
+    <div id="formdiv">
+        <form action="#">
+            <label for="Day">Day</label>
+            <input type="text" placeholder="Enter Day" id="day"><br><br>
+            <label for="Period">Period I</label>
+            <input type="text" id="ped1" placeholder="Enter Subject"><br><br>
+            <label for="Period">Period II</label>
+            <input type="text" id="ped2" placeholder="Enter Subject"><br><br>
+            <label for="Period">Period III</label>
+            <input type="text" id="ped3" placeholder="Enter Subject"><br><br>
+            <label for="Period">Period IV</label>
+            <input type="text" id="ped4" placeholder="Enter Subject"><br><br>
+            <label for="Period">Period V</label>
+            <input type="text" id="ped5" placeholder="Enter Subject"><br><br>
+            <label for="Period">Period VI</label>
+            <input type="text" id="ped6" placeholder="Enter Subject"><br><br>
+            <label for="Period">Period VII</label>
+            <input type="text" id="ped7" placeholder="Enter Subject"><br><br>
+            <div id="sub-btn"><a href="#" onclick="tabdata()">Submit</a></div>
+        </form>
+    </div>
+    <div id="rightdesc">
+        
+    </div>
+    <div class="tbody">
+        <table id="maintable">
+            <thead>
+                <tr>
+                    <div id="tablehead">
+                        <td>Day/Time</td>
+                        <td>9:00 </td>
+                        <td>10:00 </td>
+                        <td>11:00  </td>
+                        <td>12:00 </td>
+                        <td>1:00 </td>
+                        <td>2:00 </td>
+                        <td>3:00 </td>
+                        <td>Remove</td>
+                    </div>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="subButton">
+        <a href="#" onclick="send()" id="send">Send</a>
+    </div>
+
+</body>
+<script src="../navbarA-js/TimetableA.js"></script>
+</html>

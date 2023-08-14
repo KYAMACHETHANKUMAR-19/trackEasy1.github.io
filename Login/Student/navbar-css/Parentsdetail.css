@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Edu+SA+Beginner:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+body{
+    margin : 0;
+
+}
+#topnav{
+    background-color: skyblue;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    text-align: center;
+    box-shadow:0 10px 10px #584b4b;
+}
+.nav{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    font-family: 'Borel', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    
+}
+.nav:hover{
+    color: black;
+}
+.nav:active{
+    color: black;
+}
+#nav1{
+    color: black;
+    font-family: 'Borel', cursive;
+    font-size: 35px;
+    padding-right: 30px;
+}
+#nav1:hover{
+    color: white;
+}
+#nav1:active{
+    color: black;
+}
+
+/* formstyle */
+.parentDetails{
+    width: 40%;
+    background-color: aliceblue;
+    text-align: right;
+    padding: 25px;
+    border: 1px solid black;
+    border-left: 10px groove #ccc;
+    border-radius: 16px;
+    display: inline-block;
+    box-shadow: 0 5px 5px black;
+    margin-top: 2%;
+    margin-left: 3% ;
+    margin-right: 1.5%;
+}
+/*parent Detail*/
+.parentDetail{
+    width: 40%;
+    background-color: aliceblue;
+    text-align: right;
+    padding: 25px;
+    border: 1px solid black;
+    border-left: 10px groove #ccc;
+    border-radius: 16px;
+    display: inline-block;
+    box-shadow: 0 5px 5px black;
+    margin-top: 2%;
+    margin-left: 1.5% ;
+    margin-right: 3%;
+}
+/* labelstyle */
+label{
+    float: left;
+    padding-right: 14px;
+}
+/* buttonstyle */
+button{
+    border: none;
+    border-right: 11px groove aliceblue;
+    background-color: #ccc;
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px black;
+    font-family: monospace;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+/* inputstyle */
+input{
+    border: 1px solid black;
+    padding: 8px;
+    padding-left: 45px;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px black;
+    font-family: monospace;
+}
+/* divisionStyle */
+#division{
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+#heading1{
+    border: none;
+    display: inline-block;
+    margin-left:40% ;
+    margin-right: 35%;
+    margin-top: .25%;
+    font-family: 'Vina Sans', cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
